@@ -50,7 +50,7 @@ toran_map/
 ## Installation
 
 ```bash
-git clone https://github.com/wormsystem/toran_map
+git clone https://github.com/wormsystem/toran_map_v2
 cd toran_map
 go mod tidy
 go build -o toran_map .
